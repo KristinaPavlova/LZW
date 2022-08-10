@@ -1,0 +1,15 @@
+instructions - извежда списък с операциите с кратко обяснение
+
+zip <path_to_file/directory you want to compress> <path to destination of the compressed file> - прочита съдържанието на файла/директорията и създава компресиран файл на указаната дестинация
+
+unzipWholeArchive <path_to compressed file/directory> <path to destination where to decompress> - разархивира цялото съдържание на архива на указаната дестинация
+
+unzipOneFile <path_to compressed file/directory> <file_you_want_to_decompress> <path to destination where to decompress> - разархивира указание от потребителя файл от архива(ако съществува такъв) на указаната дестинация
+
+refresh <path_to compressed file/directory> <path to new version of the file> - обновява файл в архива с негова по нова версия 
+
+info <path_to compressed file/directory> - извежда списък с имената на файловете в архива и процента на постигнатата цомпресия за всеки от тях
+
+ec <path_to compressed file/directory> - проверява архива за грешки
+
+
